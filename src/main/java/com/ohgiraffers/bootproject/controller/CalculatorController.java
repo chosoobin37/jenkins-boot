@@ -26,7 +26,7 @@ public class CalculatorController {
         int result = calculatorService.plus(calculatorDTO);
         calculatorDTO.setSum(result);
 
-//        System.out.println(calculatorDTO.getNum1() + "," + calculatorDTO.getNum2()); 주석변경
+//        System.out.println(calculatorDTO.getNum1() + "," + calculatorDTO.getNum2()); 테스트 주석
         return calculatorDTO;
     }
 }
